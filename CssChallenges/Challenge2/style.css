@@ -1,0 +1,41 @@
+body {
+  background: #e2ac7f;
+  font-family: sans-serif;
+}
+
+#wrap {
+  background-color: #f5f5dc;
+  border: 3px dotted black;
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  border-bottom: 3px dotted black;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Archivo Black';
+  font-size: 2.5rem;
+}
+
+p {
+  padding: 0 1rem;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  line-height: 1.8rem;
+  font-style: italic;
+}
+
+li::first-letter {
+  font-weight: bold;
+  font-size: large;
+}
+
+.copyright {
+  text-align: center;
+  font-size: small;
+}
