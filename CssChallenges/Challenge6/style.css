@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 10vh;
+  font-family: 'Cinzel Decorative', cursive;
+  color: aliceblue;
+  background: #e4ffff;
+}
+
+#wrap {
+  border: 1px solid black;
+  background: #b8cece;
+  text-align: center;
+  padding: 5rem;
+}
+
+.thepost {
+  background: url("./blurry-blue.jpg") left 92% top 36%;
+  width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.posttitle {
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin:0;
+}
+
+.dateheader {
+  font-family: 'Pangolin', cursive;
+  margin: 0;
+  color: #a19797;
+  position: relative;
+}
+
+.dateheader::before {
+  content: " ";
+  width: 205px;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 6px;
+  left: 3px;
+}
+
+.dateheader::after {
+  content: " ";
+  width: 205px;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 6px;
+  right: 3px;
+}
+
+.posttext {
+  font-size: 2rem;
+}
+
+.postfooter {
+  text-align: right;
+  color: #c2a6a6;
+}
