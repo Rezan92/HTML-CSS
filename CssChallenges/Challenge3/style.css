@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #364371;
+  font-family: 'Heebo', sans-serif;
+}
+
+#wrap {
+  width: 800px;
+  margin: auto;
+}
+
+#nav {
+  float: left;
+  background-color: #b0cffc;
+  padding: 1rem;
+  width: 24%;
+  height: 555px;
+}
+
+#nav ul {
+  margin: auto;
+  padding-left: 21px;
+  list-style-position: inside;
+}
+
+#content {
+  background-color: #5a7ebd;
+  margin-left: 24%;
+  padding: 1rem;
+  text-align: center;
+  height: 555px;
+}
+
+#content h1 {
+  font-size: 2.5rem;
+}
+
+#content ul {
+  list-style-type: none;
+}
