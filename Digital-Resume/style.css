@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Lemon&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+  background-color: #8ec1d0;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.main-header {
+  background-color: #8ec1d0;
+  padding: 1rem 0 1rem 4rem;
+}
+
+.main-header_name {
+  font-family: 'Lemon', cursive;
+  font-style: italic;
+  font-size: 2.4rem;
+  text-align: left;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgb(103, 138, 184);
+  display: inline-block;
+}
+
+.main-header_profession {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0;
+}
+
+.main-header_nav {
+  background-color: #002e3b;
+  display: inline-block;
+  list-style-type: none;
+  margin: 1rem 0 0;
+  padding: .5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: .3rem;
+}
+
+.main-header_nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header_nav li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: .4rem 1rem;
+  border-right: 1px solid white;
+}
+
+.main-header_nav li:last-child a {
+  border-right: none;
+}
+
+.profile-content {
+  background-color: #a2d0de;
+  padding: 2rem 0 2rem 4rem;
+}
+
+.about-me {
+  text-align: left;
+  float: left;
+  width: 300px;
+}
+
+/* title-container is for all the title containers */
+
+.title-container {
+  background-color: #002e3b;
+  width: 16rem;
+  color: white;
+  padding: 0 1rem;
+  transform: skew(-30deg);
+  border-radius: 2px;
+}
+
+/* .title is for all the titles in the .title-container*/
+
+.title {
+  transform: skew(30deg);
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+/* .content is for the ABUT ME, SOFTWARE SKILLS, LANGUAGES and SOFT SKILLS content */
+
+.content {
+  list-style: none;
+  margin: 1.2rem;
+  margin-top: .5rem;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.about-me_content li {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.about-me_content li b {
+  font-weight: 700;
+  color: #782844;
+}
+
+.profile {
+  min-height: 150px;
+  margin-left: 350px;
+  padding: 3rem;
+  padding-left: 0;
+  border-top: 3px solid #002e3b;
+  border-bottom: 3px solid #002e3b;
+}
+
+.img-container {
+  width: 130px;
+  height: 150px;
+  float: left;
+  margin-right: 3rem;
+  border-right: 5px solid #002e3b;
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 230%;
+  margin: -65px -123px;
+}
+
+.profile p {
+  max-width: 800px;
+  min-width: 650px;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.main-content {
+  background-color: #8ec1d0;
+  padding: 0 0 0 4rem;
+  /* border-bottom: 3px solid #052e3b; */
+  /* border-top: 3px solid #052e3b; */
+  overflow: hidden;
+}
+
+.skills {
+  float: left;
+  width: 20rem;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.soft-skills_content, .languages_content {
+  list-style-type: square;
+  list-style-position: inside;
+  max-width: 300px;
+}
+
+.skills-png {
+  width: 245px;
+  position: absolute;
+  bottom: -211px;
+  left: 13px;
+}
+
+/* Experience */
+
+.experience {
+  margin-left: 21rem;
+  padding: 3rem 0 .1rem 3rem;
+  border-left: 3px solid #052e3b;
+}
+
+/* .experience_container is container contain the all the schools in the EDUCATION section,
+all the companies in the EXPERIENCE section and all the volunteering work in the VOLUNTEERING HISTORY section*/
+.experience_container {
+  padding-left: 1rem;
+  max-width: 600px;
+}
+
+/* .experience_header is for all the headers (Names and years)  */
+.experience_header {
+  overflow: hidden;
+}
+
+.experience_name {
+  float: left;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: .7rem;
+  border-bottom: 2px solid #035a75;
+}
+
+.experience_year {
+  width: 400px;
+  text-align: right;
+  margin: 0;
+  margin-top: .7rem;
+  font-weight: bold;
+}
+
+.experience_field, .experience_place {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.experience_field {
+  margin-bottom: -.4rem;
+}
+
+.work-experience {
+  margin-top: 2rem;
+}
+
+.experience_content {
+  margin-top: .3rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.volunteering-work_name{
+  border-bottom: none;
+  padding-left: 1.5rem;
+  margin-bottom: -.6rem;
+}
+
+.middel {
+  max-width: 1100px;
+  margin: auto;
+}
