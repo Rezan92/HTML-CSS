@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  min-width: fit-content;
+}
+
+header {
+  display: block;
+}
+
+.nav-belt {
+  background-color: #121920;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-width: 220px;
+  height: 60px;
+}
+
+.nav-hamburger-menu {
+  border: 1px solid #494949;
+  border-radius: 3px;
+  padding: 4px 8px;
+  margin: 10px 7px;
+}
+
+.nav-hamburger-menu:hover, .logo:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.nav-hamburger-menu div {
+  width: 1.28rem;
+  height: 2px;
+  margin: 6px 0;
+  background-color: white;
+}
+
+.logo {
+  width: 100%;
+  margin: 4px 0;
+  padding: 7px 0;
+  border: 1px solid transparent;
+}
+
+.logo img {
+  height: 31px;
+  padding-top: 2px;
+}
+
+.nav-search {
+  flex-grow: 20;
+  min-width: 350px;
+  margin: 10px 7px;
+}
+
+.nav-search form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  border: 2px solid transparent;
+}
+
+.nav-search form:hover {
+  border: 2px solid #f90;
+  border-radius: 5px;
+}
+
+.nav-search select {
+  border-radius: 3px 0 0 3px;
+  width: 47px;
+  outline: none;
+  border: none;
+  padding: 4px;
+  color: #505050;
+  cursor: pointer;
+}
+
+.nav-search input {
+  width: 90%;
+  height: 38px;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 5px;
+}
+
+.nav-search button {
+  width: 47px;
+  background: #fdbd69;
+  outline: none;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.nav-search button i {
+  font-size: 1.1rem;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  min-width: 364px;
+  height: 60px;
+}
+
+.flag {
+  margin: 4px 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  width: 60px;
+  min-width: 60px;
+}
+
+.flag:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.flag img {
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.flag i {
+  color: #969696;
+}
+
+.nav-right_container {
+  border: 1px solid transparent;
+  margin: 4px;
+  color: #ffffff;
+  padding: 0 9px;
+}
+
+.nav-right_container:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.nav-line-1 {
+  display: block;
+  color: #969696;
+  font-size: 12px;
+  margin-top: .5rem;
+}
+
+.nav-line-2 {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 900;
+  font-size: .8rem;
+}
+
+.cart-container {
+  border: 1px solid transparent;
+  margin: 4px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cart-container:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.nav-belt2 {
+  background-color: #232f3e;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.nav-global {
+  /* border: 1px solid white; */
+  height: 37px;
+  width: 224px;
+  color: white;
+  padding: 1px;
+  padding-left: 10px;
+}
+
+.nav-global-location {
+  padding: 2px;
+  width: 130px;
+  border: 1px solid transparent;
+}
+
+.nav-global-location:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.nav-global-location i {
+  float: left;
+  margin-right: 4px;
+}
+
+.nav-global-location small {
+  color: white;
+  margin-top: 0;
+}
+
+.nav-xshop-container {
+  color: #ccc;
+  flex-grow: 2;
+}
+
+.nav-xshop {
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: small;
+  padding-left: 3px;
+}
+
+.xshop-item {
+  margin: 2px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.xshop-item:hover {
+  border: 1px solid white;
+}
+
+.swm-text-container {
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 8px 6px 8px;
+  display: inline-block;
+  margin: 6px 2px 7px 1px;
+}
+
+.swm-text-container:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
